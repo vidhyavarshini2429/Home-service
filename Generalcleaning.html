@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Service</title>
+    <link rel="stylesheet" href="CSS/homeservice.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap JS Bundle (needed for modal) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body class="body">
+    <div class="navbar1">
+        <a href="index.html">
+            <img src="Images/Home page/Logo.png" class="logo1-img">
+        </a>
+        <div class="search-box1">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path d="M10 2a8 8 0 1 0 5.293 14.293l5.707 5.707-1.414 1.414-5.707-5.707A8 8 0 0 0 10 2zm0 2a6 6 0 1 1 0 12A6 6 0 0 1 10 4z"/>
+            </svg>
+            <input type="text" placeholder="Search">
+        </div>
+        <div class="sidenavbar1">
+
+            <div class="phone1">
+                <a href="contact.html">
+                    <img src="Images/phone.png" class="phone1-img">
+                <p class="phone1-p">Contact</p>
+                </a>
+            </div>
+            <div class="book1">
+                <img src="Images/book.png" class="phone1-img">
+                <p class="phone1-p">Book</p>
+            </div>
+            <div class="login1">
+               <a href="login.html">
+                    <img src="Images/login.png" class="phone1-img">
+                <p class="phone1-p">Login</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="GC-button">
+        <a href="index.html" class="GC-link">
+            <button class="GC-button-button">
+                <p class="arrow">&#8592;</p>
+                <p class="gc-p-button">General Cleaning</p>
+            </button>
+        </a>
+    </div>
+    <div class="GC-cards">
+        <button class="GC-Card1-button" data-bs-toggle="modal" data-bs-target="#homeCleaningModal">
+            <div class="GC-card2">
+                <img src="Images/General cleaning/1.png" class="GC-card2-img">
+                <p class="GC-card2-p">Home cleaning</p>
+                <p class="GC-card2-p2">From <span style="color: red;">Rs:500/</span>hour</p>
+            </div>
+        </button>
+        <div class="GC-card1">
+            <img src="Images/General cleaning/2.png" class="GC-card1-img">
+            <p class="GC-card1-p">Furniture Cleaning</p>
+            <p class="GC-card1-p2">From <span style="color: red;">Rs:500/</span>hour</p>
+        </div>
+        <div class="GC-card1">
+            <img src="Images/General cleaning/3.png" class="GC-card1-img">
+            <p class="GC-card1-p">Deep Cleaning</p>
+            <p class="GC-card1-p2">From <span style="color: red;">Rs:500/</span>hour</p>
+        </div>
+        <div class="GC-card1">
+            <img src="Images/General cleaning/4.png" class="GC-card1-img">
+            <p class="GC-card1-p">Part time Cleaner</p>
+            <p class="GC-card1-p2">From <span style="color: red;">Rs:500/</span>hour</p>
+        </div>
+    </div>
+    <div class="modal fade" id="homeCleaningModal" tabindex="-1" aria-labelledby="homeCleaningLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content border-0 rounded-4 p-4">
+                <div class="modal-body text-center">
+
+                    <!-- Modal Layout: 3 Cards Side by Side -->
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-md-4 text-center">
+                                <a href="appartment.html" class="GC-Appartment-link">
+                                    <img src="Images/General cleaning/6.png" class="img-fluid rounded-4 mb-2" alt="Apartment">
+                                    <p class="fw-semibold fs-5">Apartment</p>
+                                </a>
+                            </div>
+                            <div class="col-md-4 text-center">
+                                <img src="Images/General cleaning/7.png" class="img-fluid rounded-4 mb-2" alt="House">
+                                <p class="fw-semibold fs-5">House</p>
+                            </div>
+                            <div class="col-md-4 text-center position-relative">
+                                <img src="Images/General cleaning/7.png" class="img-fluid rounded-4 mb-2 opacity-50" alt="Offers">
+                                <div class="position-absolute top-50 start-50 translate-middle bg-white rounded-circle p-3 shadow">
+                                    <span style="font-size: 1.5rem;">%</span>
+                                </div>
+                                <p class="fw-semibold fs-5">Offers</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div class="guarantee">
+    <div class="guarantee-left">
+        <div class="footer-logo">
+            <img src="Images/Home page/Logo.png" class="f1-logo-img">
+            <p class="f1-logo-p">Home services</p>
+        </div>
+    </div>
+    <div class="guarantee-right">
+        <h2 class="guarantee-right-h2">"Expert Home Care,Guaranteed Peace of Mind"</h2>
+        <p class="guarantee-right-p">We deliver top-quality home care with trained professionals, ensuring expert services and your peace of mind.</p>
+    </div>
+</div>
+<div class="customersays">
+        <h3 class="customersays-h3">What customers say about Home Services</h3>
+        <div class="reviewcards">
+            <div class="review-card">
+                <img src="Images/Home page/6.png" class="review-card-img">
+                <h2 class="review-card-h2">Handyman services</h2>
+                <p class="review-card-p">"Booked a plumber through Home services website-smooth experience! On-time,polite,quick fix, and clear pricing. Will definitely use again!"</p>
+                <p class="review-name">Adam,Chennai</p>
+                <img src="Images/Home page/star.png" class="star-img">
+            </div>
+             <div class="review-card">
+                <img src="Images/Home page/salon.png" class="review-card-img">
+                <h2 class="review-card-h2">Home Salon</h2>
+                <p class="review-card-p">"Booked a plumber through Home services website-smooth experience! On-time,polite,quick fix, and clear pricing. Will definitely use again!"</p>
+                <p class="review-name">Adam,Chennai</p>
+                <img src="Images/Home page/star.png" class="star-img">
+            </div>
+             <div class="review-card">
+                <img src="Images/Home page/7.png" class="review-card-img">
+                <h2 class="review-card-h2">General Cleaning</h2>
+                <p class="review-card-p">"Booked a plumber through Home services website-smooth experience! On-time,polite,quick fix, and clear pricing. Will definitely use again!"</p>
+                <p class="review-name">Adam,Chennai</p>
+                <img src="Images/Home page/star.png" class="star-img">
+            </div>
+             <div class="review-card">
+                <img src="Images/Home page/6.png" class="review-card-img">
+                <h2 class="review-card-h2">Handyman services</h2>
+                <p class="review-card-p">"Booked a plumber through Home services website-smooth experience! On-time,polite,quick fix, and clear pricing. Will definitely use again!"</p>
+                <p class="review-name">Adam,Chennai</p>
+                <img src="Images/Home page/star.png" class="star-img">
+            </div>
+             <div class="review-card">
+                <img src="Images/Home page/salon.png" class="review-card-img">
+                <h2 class="review-card-h2">Home Salon</h2>
+                <p class="review-card-p">"Booked a plumber through Home services website-smooth experience! On-time,polite,quick fix, and clear pricing. Will definitely use again!"</p>
+                <p class="review-name">Adam,Chennai</p>
+                <img src="Images/Home page/star.png" class="star-img">
+            </div>
+        </div>
+    </div>
+    <div class="playstore">
+        <div class="playstore-left">
+            <p class="playstore-left-p1">Manage all to-dos with a single tap!</p>
+            <p class="playstore-left-p2">Download our app</p>
+            <p class="playstore-left-p3">now for a better experience!</p>
+            <div class="appstore">
+                <img src="Images/Home page/app-store.png" class="appstore-img">
+            </div>
+        </div>
+        <div class="playstore-right">
+            <img src="Images/Home page/app-right-img.png" class="playstore-right-img">
+        </div>
+    </div>
+    <div class="footer">
+        <div class="f1">
+            <div class="footer-logo">
+                <img src="Images/Home page/Logo.png" class="f1-logo-img">
+                <p class="f1-logo-p">Home services</p>
+            </div>
+            <p class="f1-p">Expert Services.<br>Anytime,<br>Anywhere</p>
+        </div>
+        <div class="f2">
+            <h3 class="f2-h3">Services</h3>
+            <ul class="f2-ul">
+                <li class="f2-li">General Cleaning</li>
+                <li class="f2-li">AC Cleaning</li>
+                <li class="f2-li">Home Salon</li>
+                <li class="f2-li">Handyman services</li>
+                <li class="f2-li">Healthcare at Home</li>
+            </ul>
+        </div>
+        <div class="f3">
+            <h3 class="f3-h3">Quick links</h3>
+            <ul class="f2-ul">
+                <li class="f2-li">Privacy policy</li>
+                <li class="f2-li">Terms and conditions</li>
+                <li class="f2-li">Help and support</li>
+            </ul>
+        </div>
+        <div class="f4">
+            <h3 class="f4-h3">Contact us</h3>
+            <ul class="f4-ul">
+                <li class="f4-li">
+                    <img src="Images/Home page/contact.png" class="f4-img">
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
